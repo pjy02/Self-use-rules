@@ -23,7 +23,7 @@
 @@||*.duiba.com.cn^
 #看漫画积分商城
 !#酷我音乐#
-||wapi.kuwo.cn^
+||wapi.kuwo.cn/openapi/v1/app/upgrade^
 !酷我更新检测
 ||down.shouji.kuwo.cn^
 !酷我apk下载
