@@ -16,9 +16,15 @@
 !#看漫画#
 @@||*.duiba.com.cn^
 !看漫画积分商城
+!#酷我音乐#
+@@||log.kuwo.cn^
+!酷我音乐主页加载
+@@||nmobi.kuwo.cn^
+!酷我音乐-音乐加载
 !##{X}##
 !#小米社区#
 @@||browser.mi-img.com^
+@@||ssl-cdn.static.browser.mi-img.com^
 !小米社区出现加载失败
 @@||ts.market.mi-img.com^
 !小米社区部分图片加载失败
