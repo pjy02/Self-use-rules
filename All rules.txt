@@ -27,9 +27,14 @@
 !酷我更新检测
 ||down.shouji.kuwo.cn^
 !酷我apk下载
+@@||log.kuwo.cn^$app=cn.kuwo.player
+!酷我主页加载
+@@||nmobi.kuwo.cn^$app=cn.kuwo.player
+!酷我音乐播放
 !##{X}##
 !#小米社区#
 @@||browser.mi-img.com^
+@@||ssl-cdn.static.browser.mi-img.com^
 !小米社区出现加载失败
 @@||ts.market.mi-img.com^
 !小米社区部分图片加载失败
