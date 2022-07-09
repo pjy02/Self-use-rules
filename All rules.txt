@@ -30,6 +30,7 @@
 @@||log.kuwo.cn^
 !酷我主页加载
 @@||nmobi.kuwo.cn^
+!酷我-音乐加载
 !##{X}##
 !#小米社区#
 @@||browser.mi-img.com^
