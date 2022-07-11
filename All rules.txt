@@ -1,4 +1,5 @@
 ! Title: All rules
+! Homepage: https://gitee.com/twilight-pledge/self-use-rules
 !##{D}##
 !#dokki#
 @@||lean-api-prod.dokki.fans^
