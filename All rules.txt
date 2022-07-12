@@ -32,7 +32,7 @@
 ||down.shouji.kuwo.cn^
 !酷我音乐apk下载
 @@||log.kuwo.cn^
-!酷我音乐主页加载
+!酷我音乐-主页加载
 @@||nmobi.kuwo.cn^
 !酷我音乐-音乐加载
 !##{X}##
