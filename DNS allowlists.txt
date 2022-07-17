@@ -1,4 +1,8 @@
 ! Title: DNS allowlists
+! Description: Self use rules: including interception list, permission list, removal of software automatic update, etc. This is a full rule.
+! Homepage: https://gitee.com/twilight-pledge/self-use-rules
+! Version: 1.0.0.1
+! Powerd by twilight-pledge
 !##{D}##
 !dokki#
 @@||lean-api-prod.dokki.fans^
