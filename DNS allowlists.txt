@@ -21,6 +21,8 @@
 !酷我音乐-主页加载
 @@||nmobi.kuwo.cn^
 !酷我音乐-音乐加载
+@@||fvedio.kuwo.cn^
+!酷我音乐-MV
 !##{X}##
 !#小米社区#
 @@||browser.mi-img.com^
