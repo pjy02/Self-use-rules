@@ -3,16 +3,22 @@
 ! Homepage: https://gitee.com/twilight-pledge/self-use-rules
 ! Version: 1.0.0.0
 ! Powerd by twilight-pledge
+!##{B}##
+!#哔哩哔哩#
+||app.bilibili.com^
 ##{K}##
-#看漫画#
+!#看漫画#
 ||updateos.321mh.com^
 !看漫画更新检测1
 ||apkdown.zymk.cn^
 !看漫画更新检测2
 ||ecyapk.zymk.cn^
 !看漫画apk下载
-#酷我音乐#
+!#酷我音乐#
 ||wapi.kuwo.cn^
 !酷我音乐更新检测
 ||down.shouji.kuwo.cn^
 !酷我音乐apk下载
+!##{W}##
+!#微博#
+||api.weibo.cn^
