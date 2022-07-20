@@ -1,7 +1,9 @@
 ##{B}##
 #哔哩哔哩#
 app.bilibili.com/x/v2/version/fawkes !更新检测
-##{M}
+##{M}@#@#
+#米游社#
+api-takumi.mihoyo.com/ptolemaios/api !更新检测
 ##{K}##
 #看漫画#
 ||updateos.321mh.com^ !看漫画更新检测1
