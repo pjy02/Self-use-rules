@@ -1,6 +1,7 @@
 ##{B}##
 #哔哩哔哩#
 app.bilibili.com/x/v2/version/fawkes !更新检测
+##{M}
 ##{K}##
 #看漫画#
 ||updateos.321mh.com^ !看漫画更新检测1
