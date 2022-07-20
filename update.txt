@@ -1,4 +1,6 @@
-##{B}
+##{B}##
+#哔哩哔哩#
+app.bilibili.com/x/v2/version/fawkes !更新检测
 ##{K}##
 #看漫画#
 ||updateos.321mh.com^ !看漫画更新检测1
@@ -9,6 +11,6 @@
 ||down.shouji.kuwo.cn^ !酷我音乐apk下载
 ##{W}##
 #微博#
-api.weibo.cn/2/client/
+api.weibo.cn/2/client/ !更新检测
 #微信#
-||szextshort.weixin.qq.com^
+||szextshort.weixin.qq.com^ !更新检测
