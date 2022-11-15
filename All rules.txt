@@ -1,8 +1,14 @@
 ! Title: All rules
 ! Description: Self use rules: including interception list, permission list, removal of software automatic update, etc. This is a full rule.
 ! Homepage: https://gitee.com/twilight-pledge/self-use-rules
-! Version: 1.0.0.1
+! Version: 1.0.1.0
 ! Powerd by twilight-pledge
+!##{B}##
+!#宝塔#
+bt.36bit.top###home-recommend > div.conter-box.bgw > div.recommend-top.radius4.pd15.ltd-bg
+!#必应#
+bing.com###footer
+!必应网页底栏
 !##{D}##
 !#dokki#
 @@||lean-api-prod.dokki.fans^
@@ -22,6 +28,8 @@
 !看漫画更新检测1
 ||apkdown.zymk.cn^
 !看漫画更新检测2
+||api-cdn.321mh.com/apk-api/api^
+!看漫画更新检测3
 ||ecyapk.zymk.cn^
 !看漫画apk下载
 @@||*.duiba.com.cn^
