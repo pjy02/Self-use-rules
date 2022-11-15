@@ -1,7 +1,7 @@
 ! Title: DNS blocklists
 ! Description: Self use rules: including interception list, permission list, removal of software automatic update, etc. This is the interception rule .
 ! Homepage: https://gitee.com/twilight-pledge/self-use-rules
-! Version: 1.0.0.0
+! Version: 1.0.0.1
 ! Powerd by twilight-pledge
 !##{B}##
 !#哔哩哔哩#
@@ -12,6 +12,8 @@
 !看漫画更新检测1
 ||apkdown.zymk.cn^
 !看漫画更新检测2
+||api-cdn.321mh.com/apk-api/api^
+||看漫画更新检测3
 ||ecyapk.zymk.cn^
 !看漫画apk下载
 !#酷我音乐#
