@@ -26,6 +26,3 @@ bing.com###footer
 !酷我音乐更新检测
 ||down.shouji.kuwo.cn^
 !酷我音乐apk下载
-!##{W}##
-!#微博#
-||api.weibo.cn^
