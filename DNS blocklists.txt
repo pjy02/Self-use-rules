@@ -4,11 +4,10 @@
 ! Version: 1.0.1.0
 ! Powerd by twilight-pledge
 !##{B}##
-!#哔哩哔哩#
-#宝塔#
+!#宝塔#
 bt.36bit.top###home-recommend > div.conter-box.bgw > div.recommend-top.radius4.pd15.ltd-bg
 !宝塔网页企业广告屏蔽
-#必应#
+!#必应#
 bing.com###footer
 !必应网页底栏
 ##{K}##
@@ -21,6 +20,8 @@ bing.com###footer
 !看漫画更新检测3
 ||ecyapk.zymk.cn^
 !看漫画apk下载
+@@||*.duiba.com.cn^
+#看漫画积分商城
 !#酷我音乐#
 ||wapi.kuwo.cn^
 !酷我音乐更新检测
