@@ -18,6 +18,8 @@ bing.com###footer
 !看漫画更新检测2
 ||api-cdn.321mh.com/apk-api/api^
 !看漫画更新检测3
+||api-cdn.kaimanhua.com/apk-api/api/
+!看漫画更新检测4
 ||ecyapk.zymk.cn^
 !看漫画apk下载
 @@||*.duiba.com.cn^
