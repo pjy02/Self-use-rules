@@ -3,7 +3,6 @@
 # Version: 2024-5-1
 # Powerd by twilight-pledge
 
-##{K}##
 #看漫画#
 127.0.0.1 updateos.321mh.com
 #看漫画更新检测1
@@ -17,7 +16,7 @@
 #看漫画apk下载
 
 #酷我音乐#
-127.0.0.1 wapi.kuwo.cn/openapi/v1/app/upgrade
+127.0.0.1 wapi.kuwo.cn
 #酷我更新检测
 127.0.0.1 down.shouji.kuwo.cn
 #酷我音乐apk下载
