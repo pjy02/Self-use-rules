@@ -4,16 +4,17 @@
 # Powerd by twilight-pledge
 
 #看漫画#
-#127.0.0.1 updateos.321mh.com
+127.0.0.1 updateos.321mh.com
 #看漫画更新检测1
-#127.0.0.1 apkdown.zymk.cn
+127.0.0.1 apkdown.zymk.cn
 #看漫画更新检测2
 #127.0.0.1 api-cdn.321mh.com
 #看漫画更新检测3
-127.0.0.1 api-cdn.kaimanhua.com
+#127.0.0.1 api-cdn.kaimanhua.com
 #看漫画更新检测4
 127.0.0.1 ecyapk.zymk.cn^
 #看漫画apk下载
+
 
 #酷我音乐#
 127.0.0.1 wapi.kuwo.cn
