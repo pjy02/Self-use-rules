@@ -1,14 +1,14 @@
 # Title: Hosts
 # Description: This is a Hosts file.
-# Version: 2024-5-1
+# Version: 2024-5-5
 # Powerd by twilight-pledge
 
 #看漫画#
-127.0.0.1 updateos.321mh.com
+#127.0.0.1 updateos.321mh.com
 #看漫画更新检测1
-127.0.0.1 apkdown.zymk.cn
+#127.0.0.1 apkdown.zymk.cn
 #看漫画更新检测2
-127.0.0.1 api-cdn.321mh.com
+#127.0.0.1 api-cdn.321mh.com
 #看漫画更新检测3
 127.0.0.1 api-cdn.kaimanhua.com
 #看漫画更新检测4
