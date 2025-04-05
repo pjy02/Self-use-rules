@@ -18,11 +18,11 @@ PORT=$((PORT))
 PORT_PLUS1=$((PORT + 1))
 PORT_PLUS2=$((PORT + 2))
 
-# 原始 Nginx 配置内容（已修复 server_name 的语法）
+# 原始 Nginx 配置内容
 NGINX_CONFIG=$(cat <<EOF
 server {
     listen 61000; #使用的端口
-    server_name 127.0.0.1 your_domain; # 修正语法，删除无效的 'or'
+    server_name 127.0.0.1 or you domain name; #你的域名或者直接服务器IP
 
     # 禁止访问的文件或目录
     location ~ ^/(\.user.ini|\.htaccess|\.git|\.env|\.svn|\.project|LICENSE|README.md) {
@@ -74,28 +74,26 @@ CONFIG3=$(echo "$NGINX_CONFIG" | sed -e "s/listen [0-9]*;/listen $PORT_PLUS2;/" 
                                      -e "s/cfhd\.xmsl\.org/cfloacl2.emby.moe/g" \
                                      -e "s/server_name .*;/server_name $DOMAIN_OR_IP;/")
 
-# OpenResty 配置目录（根据实际路径调整）
+# OpenResty 配置目录（默认路径）
 CONFIG_DIR="/usr/local/openresty/nginx/conf/conf.d"
+
+# 检查目录是否存在，不存在则创建
 if [ ! -d "$CONFIG_DIR" ]; then
     echo "Directory $CONFIG_DIR does not exist. Creating it..."
-    sudo mkdir -p "$CONFIG_DIR"
+    mkdir -p "$CONFIG_DIR"
 fi
 
-# 写入文件，需 sudo 权限
-echo "$CONFIG1" | sudo tee "$CONFIG_DIR/gyemby.conf" > /dev/null
-echo "$CONFIG2" | sudo tee "$CONFIG_DIR/gyemby1.conf" > /dev/null
-echo "$CONFIG3" | sudo tee "$CONFIG_DIR/gyemby2.conf" > /dev/null
+# 写入文件，直接覆盖
+echo "$CONFIG1" > "$CONFIG_DIR/gyemby.conf"
+echo "$CONFIG2" > "$CONFIG_DIR/gyemby1.conf"
+echo "$CONFIG3" > "$CONFIG_DIR/gyemby2.conf"
 
-echo "配置已写入:"
+echo "配置已写入 OpenResty 目录:"
 echo "  $CONFIG_DIR/gyemby.conf"
 echo "  $CONFIG_DIR/gyemby1.conf"
 echo "  $CONFIG_DIR/gyemby2.conf"
-
-# 检查配置语法并重载 OpenResty
-if sudo /usr/local/openresty/bin/openresty -t; then
-    echo "配置语法正确，正在重载 OpenResty..."
-    sudo /usr/local/openresty/bin/openresty -s reload
-else
-    echo "错误：配置语法有误，请检查生成的文件！" >&2
-    exit 1
-fi
+echo ""
+echo "请手动重载 OpenResty 配置:"
+echo "  sudo systemctl reload openresty"
+echo "或"
+echo "  sudo /usr/local/openresty/nginx/sbin/nginx -s reload"
