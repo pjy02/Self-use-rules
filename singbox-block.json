@@ -3,10 +3,12 @@
     "rules": [
         {
             "domain": [
-                "mdp-upgrade-cn.heytapmobi.com"
+                "mdp-upgrade-cn.heytapmobi.com",
+                "iot-earbuds-cn.heytapmobi.com"
             ],
             "domain_suffix": [
-                ".mdp-upgrade-cn.heytapmobi.com"
+                ".mdp-upgrade-cn.heytapmobi.com",
+                ".iot-earbuds-cn.heytapmobi.com"
             ]
         }
     ]
