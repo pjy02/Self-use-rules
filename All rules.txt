@@ -22,6 +22,12 @@ bing.com###footer
 !#谷歌浏览器#
 @@||chrome.google.com^
 !谷歌浏览器
+!##{H}##
+!#欢律#
+||mdp-upgrade-cn.heytapmobi.com^
+!欢律app更新
+||iot-earbuds-cn.heytapmobi.com
+!欢律app云控。会误杀，已知会影响耳机固件更新
 !##{K}##
 !#看漫画#
 ||updateos.321mh.com^
