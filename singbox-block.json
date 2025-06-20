@@ -4,11 +4,13 @@
         {
             "domain": [
                 "mdp-upgrade-cn.heytapmobi.com",
-                "iot-earbuds-cn.heytapmobi.com"
+                "iot-earbuds-cn.heytapmobi.com",
+                "api.fakeloc.cc"
             ],
             "domain_suffix": [
                 ".mdp-upgrade-cn.heytapmobi.com",
-                ".iot-earbuds-cn.heytapmobi.com"
+                ".iot-earbuds-cn.heytapmobi.com",
+".api.fakeloc.cc"
             ]
         }
     ]
