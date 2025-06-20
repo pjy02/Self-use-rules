@@ -10,7 +10,13 @@ bt.36bit.top###home-recommend > div.conter-box.bgw > div.recommend-top.radius4.p
 !#必应#
 bing.com###footer
 !必应网页底栏
-##{K}##
+!##{H}##
+!#欢律#
+||mdp-upgrade-cn.heytapmobi.com^
+!欢律app更新
+||iot-earbuds-cn.heytapmobi.com
+!欢律app云控
+!##{K}##
 !#看漫画#
 ||updateos.321mh.com^
 !看漫画更新检测1
